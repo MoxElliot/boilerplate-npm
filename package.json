@@ -1,14 +1,24 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.18.1"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	}
+  "name": "fcc-learn-npm-package-json",
+  "homepage": "https://github.com/MoxElliot/boilerplate-npm",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://idontknow/todo.git"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "description": "[![Run on Repl.it](https://repl.it/badge/github/freeCodeCamp/boilerplate-npm)](https://repl.it/github/freeCodeCamp/boilerplate-npm)",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC"
 }
