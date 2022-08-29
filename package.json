@@ -8,17 +8,20 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "build": "node _build -b",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://idontknow/todo.git"
+    "url": "git+https://github.com/MoxElliot/boilerplate-npm.git"
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
   },
-  "description": "[![Run on Repl.it](https://repl.it/badge/github/freeCodeCamp/boilerplate-npm)](https://repl.it/github/freeCodeCamp/boilerplate-npm)",
   "version": "1.0.0",
-  "author": "",
-  "license": "ISC"
+  "author": "Elliot Erickson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoxElliot/boilerplate-npm/issues"
+  }
 }
